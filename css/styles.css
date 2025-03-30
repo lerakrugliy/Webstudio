@@ -10,7 +10,7 @@ body {
     background-color: var(--main-background-color);
   }
   
-  /* Стилі для заголовків */
+/* Стилі для заголовків */
 h1, h2, h3 {
     margin: 20px 0;
     font-weight: bold;
@@ -29,7 +29,7 @@ h3 {
     font-size: 1.5em;
 }
   
-  /* Стилі для посилань */
+/* Стилі для посилань */
 a {
     color: #0078d7;
     text-decoration: none;
@@ -55,4 +55,36 @@ header nav ul {
 header nav ul li {
     margin-left: 20px;
 }
+
+/* Стилі для головного контенту (main) */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
   
+main section {
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+  
+/* Стилі для секції з перевагами */
+#about ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#about ul li {
+    width: 300px;
+    margin: 10px;
+    text-align: left;
+}
+  
+#about ul li h3{
+    color: #007bff;
+}
