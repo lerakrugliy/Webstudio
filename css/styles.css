@@ -11,32 +11,48 @@ body {
   }
   
   /* Стилі для заголовків */
-  h1, h2, h3 {
+h1, h2, h3 {
     margin: 20px 0;
     font-weight: bold;
     color: #2c3e50;
-  }
+}
   
-  h1 {
+h1 {
     font-size: 2.5em;
-  }
+}
   
-  h2 {
+h2 {
     font-size: 2em;
-  }
+}
   
-  h3 {
+h3 {
     font-size: 1.5em;
-  }
+}
   
   /* Стилі для посилань */
-  a {
+a {
     color: #0078d7;
     text-decoration: none;
-  }
+}
   
-  a:hover {
+a:hover {
     color: #0056b3;
     text-decoration: underline;
-  }
+}
+  
+header a {
+    margin-right: 10px;
+    font-weight: bold;
+}
+  
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+header nav ul li {
+    margin-left: 20px;
+}
   
