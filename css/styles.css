@@ -88,3 +88,44 @@ main section {
 #about ul li h3{
     color: #007bff;
 }
+
+/* Стилі для секції з портфоліо */
+#portfolio ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+#portfolio ul li {
+    margin: 10px;
+}
+  
+#portfolio img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+  
+/* Стилі для секції з командою */
+#team ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+#team ul li {
+    margin: 10px;
+    text-align: center;
+}
+  
+#team img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
