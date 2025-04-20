@@ -12,3 +12,33 @@
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
 }
+body{
+    font-family: var(--font-family);
+}
+.header_link{
+    font-family: var(--second-family);
+}
+.footer_link{
+    font-family: var(--second-family);
+}
+.button{
+    line-height: 162%;
+}
+.projects_subtitle{
+    line-height: 200%;
+}
+.projects_text{
+    line-height: 187%;
+}
+.footer_address{
+    line-height: 171%
+}
+.heading_title{
+    line-height: 136%;
+}
+.heading_button{
+    line-height: 187%;
+}
+.about_text{
+    line-height: 171%;
+}
