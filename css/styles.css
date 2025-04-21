@@ -13,14 +13,60 @@
     --second-family: "Raleway", sans-serif;
 }
 body{
+    background-color: var(--bg-color);
+    color: var(--main-text-color);
     font-family: var(--font-family);
+    letter-spacing: 0.03em;
+    font-size: 14px;
 }
 .header_link{
     font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--accent-color);
+}
+.header_list_link{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+}
+.header_list_link.current{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+.header_link_info{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+.header_link_number{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
 }
 .footer_link{
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--accent-color);
     font-family: var(--second-family);
 }
+.footer_text{
+    font-weight: 400;
+    line-height: 171%;
+    color: var(--logo-color-light);
+}
+.footer_link_info{
+    font-weight: 400;
+    line-height: 171%;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer_link_number{
+    font-weight: 400;
+    line-height: 171%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 .button{
     line-height: 162%;
 }
@@ -34,11 +80,49 @@ body{
     line-height: 171%
 }
 .heading_title{
+    font-weight: 900;
+    font-size: 44px;
     line-height: 136%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--logo-color-light);
 }
 .heading_button{
+    background: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
     line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--logo-color-light);
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.about_title{
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .about_text{
+    font-weight: 400;
     line-height: 171%;
+    color: var(--secondary-text-color);
 }
+.portfolio_title{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.team_subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.team_text{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: var(--secondary-text-color);
+    }
