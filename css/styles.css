@@ -30,32 +30,23 @@ body{
     letter-spacing: 0.02em;
     color: var(--secondary-text-color)
 }
-.header_list_link.current:hover{
-    color: var(--accent-color);
+.header_list_link.current{
+     color: var(--accent-color);
 }
-.header_list_link.current_portfolio:hover{
+.header_list_link:hover{                
     color: var(--accent-color);    
 }
-.header_link_info{
+.header_link_info, .header_link_number{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
-.header_link_info:hover{
-    color: var(--accent-color); 
-}
-.header_link_number{
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
-}
-.header_link_number:hover{
+.header_link_info:hover, .header_link_number:hover{
     color: var(--accent-color); 
 }
 .heading{
     background-color: var(--footer-bg-color);
 }
-
 .button{
     line-height: 162%;
     font-weight: 500;
