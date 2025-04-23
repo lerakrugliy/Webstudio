@@ -23,7 +23,9 @@ body{
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 26px;
-    color: var(--accent-color);
+}
+.header_link_span_blue{
+    color: var(--accent-color)
 }
 .header_list_link{
     font-weight: 500;
@@ -123,8 +125,11 @@ body{
 .footer_link{
     font-weight: 700;
     font-size: 26px;
-    color: var(--accent-color);
     font-family: var(--second-family);
+    color: var(--logo-color-light);
+}
+.footer_link_span_blue{
+    color: var(--accent-color)
 }
 .footer_text{
     font-weight: 400;
