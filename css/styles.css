@@ -170,7 +170,33 @@ body{
     line-height: 171%;
     color: var(--secondary-text-color);
 }
+.portfolio_list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio_item {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.portfolio_item:last-child {
+    margin-right: 0;
+}
+
+.portfolio_item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .portfolio_title{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.team_title{
     font-weight: 700;
     font-size: 36px;
     text-align: center;
