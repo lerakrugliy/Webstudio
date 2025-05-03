@@ -12,6 +12,7 @@
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
 }
+
 body{
     background-color: var(--bg-color);
     color: var(--main-text-color);
@@ -19,6 +20,7 @@ body{
     letter-spacing: 0.03em;
     font-size: 14px;
 }
+
 .header_link{
     font-family: var(--second-family);
     font-weight: 700;
@@ -38,12 +40,12 @@ body{
 .header_list_link:hover{                
     color: var(--accent-color);    
 }
-.header_link_info, .header_link_number{
+.header-contacts{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
-.header_link_info:hover, .header_link_number:hover{
+.header-contacts:hover{
     color: var(--accent-color); 
 }
 .heading{
