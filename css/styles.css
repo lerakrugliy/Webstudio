@@ -18,22 +18,23 @@ body {
     font-family: var(--font-family);
     letter-spacing: 0.03em;
     font-size: 14px;
-    width: 100%;
-    max-width: 1200px;
+}
+.container{
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
 .header-container {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
 }
 .header_nav {
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 .header_list {
-    display: flex;
+    /* display: flex; */
 }
 .header_item {
     margin-right: 50px;
@@ -65,7 +66,7 @@ body {
     color: var(--accent-color);
 }
 .header-contacts {
-    display: flex;
+    /* display: flex; */
 }
 .header_link_info,
 .header_link_number {
@@ -84,8 +85,8 @@ body {
     padding: 200px 0;
 }
 .heading-container {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     align-items: center;
 }
 .heading_title {
@@ -139,10 +140,10 @@ body {
     padding: 94px 0;
 }
 .about_list {
-    display: flex;
+    /* display: flex; */
 }
 .about_item {
-    flex: 1;
+    /* flex: 1; */
     margin-right: 30px;
 }
 .about_item:last-child {
@@ -164,10 +165,10 @@ body {
     padding-bottom: 94px;
 }
 .portfolio_list {
-    display: flex;
+    /* display: flex; */
 }
 .portfolio_item {
-    flex: 1;
+    /* flex: 1; */
     margin-right: 30px;
 }
 .portfolio_item:last-child {
@@ -182,7 +183,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .team {
     background-color: #F5F4FA;
@@ -190,10 +191,10 @@ body {
     padding-top: 94px;
 }
 .team_list {
-    display: flex;
+    /* display: flex; */
 }
 .team_item {
-    flex: 1;
+    /* flex: 1; */
     border-radius: 0 0 4px 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
         0 1px 1px rgba(0, 0, 0, 0.14),
@@ -214,6 +215,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    margin-bottom: 30px;
 }
 .team_subtitle {
     font-weight: 500;
