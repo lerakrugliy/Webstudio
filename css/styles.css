@@ -18,6 +18,10 @@ body {
     font-family: var(--font-family);
     letter-spacing: 0.03em;
     font-size: 14px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .header-container {
     display: flex;
@@ -30,9 +34,6 @@ body {
 }
 .header_list {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 .header_item {
     margin-right: 50px;
@@ -134,20 +135,11 @@ body {
     line-height: 187%;
     color: var(--secondary-text-color);
 }
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
 .about {
     padding: 94px 0;
 }
 .about_list {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 .about_item {
     flex: 1;
@@ -173,9 +165,6 @@ body {
 }
 .portfolio_list {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 .portfolio_item {
     flex: 1;
@@ -202,9 +191,6 @@ body {
 }
 .team_list {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 .team_item {
     flex: 1;
