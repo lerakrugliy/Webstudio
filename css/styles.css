@@ -26,22 +26,20 @@ body {
     outline: 1px solid red;
 }
 .header-container {
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .header_nav {
-    /* display: flex; */
+    display: flex; 
     align-items: center;
 }
 .header_list {
-    /* display: flex; */
+    display: flex; 
+    gap: 30px;
 }
 .header_item {
-    margin-right: 50px;
-}
-.header_item:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 .header_link {
     font-family: var(--second-family);
@@ -67,7 +65,8 @@ body {
     color: var(--accent-color);
 }
 .header-contacts {
-    /* display: flex; */
+    display: flex; 
+    align-items: center;
 }
 .header_link_info,
 .header_link_number {
@@ -86,8 +85,8 @@ body {
     padding: 200px 0;
 }
 .heading-container {
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex; 
+    flex-direction: column; 
     align-items: center;
 }
 .heading_title {
@@ -141,14 +140,13 @@ body {
     padding: 94px 0;
 }
 .about_list {
-    /* display: flex; */
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .about_item {
-    /* flex: 1; */
-    margin-right: 30px;
-}
-.about_item:last-child {
-    margin-right: 0;
+    flex: 1; 
+    margin-right: 0px;
 }
 .about_title {
     font-weight: 700;
@@ -166,14 +164,12 @@ body {
     padding-bottom: 94px;
 }
 .portfolio_list {
-    /* display: flex; */
+    display: flex; 
+    gap: 30px;
 }
 .portfolio_item {
-    /* flex: 1; */
-    margin-right: 30px;
-}
-.portfolio_item:last-child {
-    margin-right: 0;
+    flex: 1;
+    margin-right: 0px;
 }
 .portfolio_item img {
     display: block;
@@ -192,19 +188,18 @@ body {
     padding-top: 94px;
 }
 .team_list {
-    /* display: flex; */
+    display: flex;
+    gap: 30px;
 }
 .team_item {
-    /* flex: 1; */
+    flex: 1;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
         0 1px 1px rgba(0, 0, 0, 0.14),
         0 2px 1px rgba(0, 0, 0, 0.2);
-    margin-right: 30px;
+    margin-right: 0px;
+    text-align: center;
     padding-bottom: 30px;
-}
-.team_item:last-child {
-    margin-right: 0;
 }
 .team_item img {
     display: block;
