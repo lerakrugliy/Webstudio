@@ -142,11 +142,34 @@ body {
     background-color: var(--accent-color);
     color: var(--logo-color-light);
 }
+.projects {
+    padding-bottom: 94px;
+}
+.projects_title {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.projects_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+}
 .projects_subtitle {
     font-weight: 700;
     font-size: 18px;
     line-height: 200%;
     letter-spacing: 0.06em;
+}
+.projects_item img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 .projects_text {
     font-weight: 400;
