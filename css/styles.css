@@ -40,6 +40,7 @@ body {
 }
 .header_item {
     margin-right: 0px;
+    flex-basis: calc( ( 100% - 2 * 30px ) /  3);
 }
 .header_link {
     font-family: var(--second-family);
@@ -166,6 +167,9 @@ body {
     line-height: 200%;
     letter-spacing: 0.06em;
 }
+.projects_item{
+    flex-basis: calc( ( 100% - 2 * 30px ) /  3);
+}
 .projects_item img {
     display: block;
     width: 100%;
@@ -235,9 +239,6 @@ body {
 .team_item {
     flex: 1;
     border-radius: 0 0 4px 4px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
-        0 1px 1px rgba(0, 0, 0, 0.14),
-        0 2px 1px rgba(0, 0, 0, 0.2);
     margin-right: 0px;
     text-align: center;
     padding-bottom: 30px;
