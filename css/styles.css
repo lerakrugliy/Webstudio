@@ -208,7 +208,21 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.icon-attention::before {
+  background-image: url("../img/icon-attention.jpg");
+}
 
+.icon-punctuality::before {
+  background-image: url("../img/icon-punctuality.jpg");
+}
+
+.icon-planning::before {
+  background-image: url("../img/icon-planning.png");
+}
+
+.icon-technology::before {
+  background-image: url("../img/icon-technology.jpg");
+}
 .about_title {
     font-weight: 700;
     text-transform: uppercase;
