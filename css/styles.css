@@ -192,7 +192,23 @@ body {
 .about_item {
     flex: 1; 
     margin-right: 0px;
+    position: relative;
+    padding-top: 170px;
+    text-align: center;
 }
+.about_item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 270px;
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .about_title {
     font-weight: 700;
     text-transform: uppercase;
