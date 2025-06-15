@@ -82,8 +82,19 @@ body {
     color: var(--accent-color);
 }
 .heading {
-    background-color: var(--footer-bg-color);
     padding: 200px 0;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:
+        linear-gradient(to bottom, 
+        rgba(30, 30, 30, 0.4), 
+        rgba(0, 0, 0, 0.6)),
+        url("../img/heading.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .heading-container {
     display: flex; 
@@ -175,9 +186,15 @@ body {
     display: block;
     width: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
 .projects_item:hover{
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+.projects_item_div{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
 }
 .projects_text {
     font-weight: 400;
@@ -201,31 +218,31 @@ body {
     text-align: center;
 }
 .about_item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 270px;
-  height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 270px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .icon-attention::before {
-  background-image: url("../img/icon-attention.jpg");
+    background-image: url("../img/icon-attention.jpg");
 }
 
 .icon-punctuality::before {
-  background-image: url("../img/icon-punctuality.jpg");
+    background-image: url("../img/icon-punctuality.jpg");
 }
 
 .icon-planning::before {
-  background-image: url("../img/icon-planning.png");
+    background-image: url("../img/icon-planning.png");
 }
 
 .icon-technology::before {
-  background-image: url("../img/icon-technology.jpg");
+    background-image: url("../img/icon-technology.jpg");
 }
 .about_title {
     font-weight: 700;
