@@ -316,6 +316,7 @@ body {
 }
 
 .portfolio_item {
+    position: relative;
     flex: 1;
     margin-right: 0px;
 }
@@ -327,8 +328,8 @@ body {
     width: 370px;
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
-    position: relative;
-    top: -70px;
+    position: absolute;
+    top: 225px;
 }
 
 .portfolio_position_text{
