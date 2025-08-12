@@ -120,6 +120,7 @@ body {
     flex-direction: column; 
     align-items: center;
 }
+
 .heading_title {
     font-weight: 900;
     font-size: 44px;
@@ -130,6 +131,7 @@ body {
     color: var(--logo-color-light);
     margin-bottom: 30px;
 }
+
 .heading_button {
     text-align: center;
     background: var(--accent-color);
@@ -161,12 +163,14 @@ body {
     padding-top: 94px;
     padding-bottom: 50px;
 }
+
 .button_div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
 }
+
 .button_button{
     padding: 6px 22px;
     border: none;
@@ -182,16 +186,19 @@ body {
     background-color: var(--accent-color);
     color: var(--logo-color-light);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-    }
+}
+
 .projects {
     padding-bottom: 94px;
 }
+
 .projects_title {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
     margin-bottom: 50px;
 }
+
 .projects_list {
     display: flex;
     flex-wrap: wrap;
@@ -201,30 +208,36 @@ body {
     list-style: none;
     justify-content: center;
 }
+
 .projects_subtitle {
     font-weight: 700;
     font-size: 18px;
     line-height: 200%;
     letter-spacing: 0.06em;
 }
+
 .projects_item{
     flex-basis: calc( ( 100% - 2 * 30px ) /  3);
     transition: box-shadow 0.5s ease;
 }
+
 .projects_item img {
     display: block;
     width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
+
 .projects_item:hover{
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
+
 .projects_item_div{
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 20px;
 }
+
 .projects_text {
     font-weight: 400;
     font-size: 16px;
@@ -305,6 +318,27 @@ body {
 .portfolio_item {
     flex: 1;
     margin-right: 0px;
+}
+
+.portfolio_position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    position: relative;
+    top: -70px;
+}
+
+.portfolio_position_text{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--footer-text-color);
 }
 
 .portfolio_item img {
