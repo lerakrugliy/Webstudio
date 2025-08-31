@@ -511,6 +511,7 @@ body {
     padding-bottom: 20px;
 }
 
+
 .social_list{
     display: flex;
 }
@@ -530,6 +531,60 @@ body {
 .social_item:hover{
     color: currentColor;
     background-color: var(--accent-color);
+}
+
+.footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+}
+
+.subscribe_title{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color-light);
+    padding-bottom: 20px;
+}
+
+.subscribe_form{
+    display: flex;
+    gap: 12px;
+}
+
+.subscribe_form input{
+    padding-left: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: rgba(33, 150, 243, 0);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    color: var(--logo-color-light);
+    opacity: 0.6;
+}
+
+.subscribe_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--logo-color-light);
+    gap: 10px;
 }
 
 .backdrop {
