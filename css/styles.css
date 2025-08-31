@@ -51,6 +51,7 @@ body {
 .header_item {
     margin-right: 0px;
     flex-basis: calc( ( 100% - 2 * 30px ) /  3);
+    position: relative;
 }
 
 .header_link {
@@ -65,13 +66,30 @@ body {
 }
 
 .header_list_link {
+    display: block;
+    text-decoration: none;
+    padding: 20px 0;
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
-    text-decoration: none;
-    padding: 20px 0;
-    display: block;
+    position: relative;
 }
+
+.header_list_link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+
+.header_list_link:hover::after,
+.header_list_link.current::after {
+    width: 100%; }
+
 
 .header_list_link.current {
     color: var(--accent-color);
