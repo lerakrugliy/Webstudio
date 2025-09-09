@@ -73,6 +73,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header_list_link::after {
@@ -84,7 +85,7 @@ body {
     height: 4px;
     background-color: var(--accent-color);
     border-radius: 4px;
-    transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header_list_link:hover::after,
@@ -98,7 +99,6 @@ body {
 
 .header_list_link:hover {
     color: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts {
@@ -116,12 +116,12 @@ body {
     color: var(--secondary-text-color);
     text-decoration: none;
     margin-left: 30px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header_link_info:hover,
 .header_link_number:hover {
     color: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .heading {
@@ -159,7 +159,7 @@ body {
 
 .heading_button {
     text-align: center;
-    background: var(--accent-color);
+    background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 187%;
@@ -172,11 +172,11 @@ body {
     padding: 15px 30px;
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .heading_button:hover{
-    background: #1b7dcd;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #1b7dcd;
 }
 
 .button {
@@ -203,7 +203,9 @@ body {
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
-    transition: background-color 0.5s ease;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button_button:hover,
@@ -211,7 +213,6 @@ body {
     background-color: var(--accent-color);
     color: var(--logo-color-light);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects {
@@ -244,7 +245,7 @@ body {
 
 .projects_item{
     flex-basis: calc( ( 100% - 2 * 30px ) /  3);
-    transition: box-shadow 0.5s ease;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects_item img {
@@ -256,7 +257,6 @@ body {
 
 .projects_item:hover{
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects_item_div{
@@ -354,7 +354,7 @@ body {
     justify-content: center;
     width: 370px;
     height: 70px;
-    background: rgba(47, 48, 58, 0.8);
+    background-color: rgba(47, 48, 58, 0.8);
     position: absolute;
     top: 225px;
 }
@@ -456,23 +456,22 @@ body {
     border-radius: 4px;
     width: 170px;
     height: 92px;
-    transition: border 0.5s ease;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients_item:hover{
     border: 1px solid var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients_icon {
     fill: #AFB1B8 ;
     width: 106px; 
     height: 60px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients_item:hover .clients_icon {
     fill: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
@@ -549,12 +548,13 @@ body {
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--background-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social_item:hover{
     color: currentColor;
     background-color: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer_subscribe {
@@ -584,7 +584,7 @@ body {
     width: 358px;
     height: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: rgba(33, 150, 243, 0);
+    background-color: rgba(33, 150, 243, 0);
     font-weight: 400;
     font-size: 16px;
     line-height: 125%;
@@ -601,7 +601,7 @@ body {
     width: 200px;
     height: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: var(--accent-color);
+    background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 188%;
@@ -609,11 +609,11 @@ body {
     text-align: center;
     color: var(--logo-color-light);
     gap: 10px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe_button:hover{
     background-color: #1b7dcd;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
@@ -638,7 +638,7 @@ body {
     top: 50%;
     left: 50%;
     background-color: #FFFFFF;
-    padding:40px ;
+    padding: 40px;
     transform: translate(-50%, -50%);
     border-radius: 5px;
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
@@ -648,7 +648,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #fff;
+    background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
@@ -666,15 +666,13 @@ body {
     stroke: currentColor;
     stroke-width: 2;
     fill: currentColor; 
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal_icon:hover svg {
-    width: 18px;
-    height: 18px;
     stroke: var(--accent-color);
-    stroke-width: 2;
     fill: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal_title{
@@ -698,13 +696,14 @@ body {
     gap: 10px;
 }
 
-.modal_label {
+.modal_div_text {
     display: flex;
     flex-direction: column;
     gap: 4px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal_span{
+.modal_label{
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.01em;
@@ -724,6 +723,8 @@ body {
     width: 448px;
     height: 40px;
     padding-left: 42px;
+    transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal_write_last textarea{
@@ -732,6 +733,8 @@ body {
     width: 448px;
     padding: 12px 16px;
     height: 120px;
+    transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal_write:focus-within input {
@@ -747,19 +750,16 @@ body {
     left: 16px;
 }
 
-.modal_label:focus-within {
+.modal_div_text:focus-within {
     color: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal_label:focus-within input {
-    outline: #03A9F4;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.modal_div_text:focus-within input {
+    outline: 1px solid #03A9F4;
 }
 
-.modal_label:focus-within textarea {
-    outline: #03A9F4;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.modal_div_text:focus-within textarea {
+    outline: 1px solid #03A9F4;
 }
 
 .checkbox_span{
@@ -776,16 +776,16 @@ body {
     width: 200px;
     height: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: var(--accent-color);
+    background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 188%;
     letter-spacing: 0.06em;
     text-align: center;
     color: var(--bg-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal_buttonL:hover{
+.modal_button:hover{
     background-color: #1b7dcd;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
